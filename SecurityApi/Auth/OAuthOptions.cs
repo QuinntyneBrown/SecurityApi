@@ -17,9 +17,7 @@ namespace SecurityApi.Auth
             AccessTokenExpireTimeSpan = TimeSpan.FromMinutes(config.ExpirationMinutes);
             AccessTokenFormat = new JwtWriterFormat(this);
             Provider = new OAuthProvider(identityService);
-            #if DEBUG
             AllowInsecureHttp = true;
-            #endif
         }
 
     }

@@ -17,7 +17,7 @@ namespace SecurityApi.Migrations
             {
                 Id = 1,
                 Username = "qbrown",
-                Password = "password",
+                Password = "XohImNooBHFR0OVvjcYpJ3NgPQ1qq73WKhHvch0VQtg=",
                 Firstname = "Quinn",
                 Lastname = "Brown"
             };

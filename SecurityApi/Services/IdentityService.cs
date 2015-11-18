@@ -52,7 +52,7 @@ namespace SecurityApi.Services
             {
                 var transformedPassword = encryptionService.TransformPassword(password);
 
-                return ValidateUser(username, password);
+                return ValidateUser(username, transformedPassword);
             }
 
             return false;
